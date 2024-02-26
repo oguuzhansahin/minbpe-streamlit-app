@@ -10,7 +10,7 @@ But:
 """
 
 from base import Tokenizer, get_stats, merge
-
+from tqdm import tqdm
 class BasicTokenizer(Tokenizer):
 
     def __init__(self):
